@@ -15,7 +15,7 @@
                              (car lst2))
                        result))))
 
-(defun closure-function (fun) fun)
+(defun cl-user::closure-function (fun) fun)
 
 (defvar  *situation-files* nil)
 
