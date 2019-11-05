@@ -416,7 +416,7 @@ duplicates."
 (defun test-end-cart-prod (s1 s2)
   (and (not (ser-rest s1)) (not (ser-rest s2))))
 
-(defun cartesian (s1  s2 )
+(defun cartesian (s1 s2)
 "returns a series containing the cartesian product of the two series
 s1 and s2"
     (multi-make-series
