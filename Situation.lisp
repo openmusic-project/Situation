@@ -2,7 +2,7 @@
 
 (in-package :om)
 
-(om::set-lib-release 3.0)
+(om::set-lib-release 3.1)
 
 (unless (member :OM *features*) (setf *features* (cons :OM *features*)))
 
